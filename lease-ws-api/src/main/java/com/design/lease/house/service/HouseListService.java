@@ -37,7 +37,7 @@ public class HouseListService {
             RpcResponseDTO<List<HouseDetailBO>> resDTO = houseRpcService.queryHouse(houseDto);
             if (!StringUtils.equals(resDTO.getCode(), RpcCommonConstant.SUCCESS_CODE) || resDTO.getDate() == null) {
                 logger.error("查询房屋列表RpcException返回结果异常.houseDto={}",houseDto);
-                return new WsResponseMsgVO<List<WsHouseDetailBO>().buildUnknownErrorResponse();
+                return new WsResponseMsgVO<List<WsHouseDetailBO>>().buildUnknownErrorResponse();
             }
             List<WsHouseDetailBO> wsHouseDetailBOS = this.buildWsHouseDetail(resDTO.getDate());
             return new WsResponseMsgVO<List<WsHouseDetailBO>>().buildSuccessResponse(wsHouseDetailBOS);
