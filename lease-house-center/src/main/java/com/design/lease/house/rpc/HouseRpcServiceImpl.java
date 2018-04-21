@@ -42,4 +42,9 @@ public class HouseRpcServiceImpl extends HouseHandler implements HouseRpcService
 
         return new RpcResponseDTO<List<HouseDetailBO>>().buildSuccessResponse(houseDetailBOS);
     }
+
+    @Override
+    public RpcResponseDTO<HouseDetailBO> queryHouseDetailByHno(HouseDto houseDto) {
+        return null;
+    }
 }

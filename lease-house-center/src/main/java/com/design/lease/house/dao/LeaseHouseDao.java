@@ -22,4 +22,6 @@ public interface LeaseHouseDao {
     int updateByPrimaryKey(LeaseHousePO record);
 
     List<LeaseHousePO>  queryHouses(@Param("status") Integer status);
+
+    LeaseHousePO queryHouseDetailByNo(@Param("hno") String hno);
 }

@@ -1,6 +1,7 @@
 package com.design.lease.house.controller;
 
 import com.design.lease.account.dto.HouseDto;
+import com.design.lease.house.service.HouseDetailService;
 import com.design.lease.house.service.HouseListService;
 import com.design.lease.ws.bo.Header;
 import com.design.lease.ws.dto.WsResponseMsgVO;
@@ -19,6 +20,9 @@ public class HouseController {
     @Autowired
     private HouseListService houseListService;
 
+    @Autowired
+    private HouseDetailService houseDetailService;
+
     @Route("/houses")
     public WsResponseMsgVO houses(Header head, HouseBodyVo body){
 
@@ -27,7 +31,7 @@ public class HouseController {
 
     @Route("/houseDetail")
     public WsResponseMsgVO houseDetail(Header head, HouseBodyVo body){
-        return null;
+        return houseDetailService.templateService(head, body);
     }
 
     @Route("/houseRelations")

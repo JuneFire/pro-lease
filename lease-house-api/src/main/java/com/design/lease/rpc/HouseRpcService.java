@@ -10,4 +10,6 @@ public interface HouseRpcService {
 
     public RpcResponseDTO<List<HouseDetailBO>> queryHouse(HouseDto houseDto);
 
+    public RpcResponseDTO<HouseDetailBO> queryHouseDetailByHno(HouseDto houseDto);
+
 }
