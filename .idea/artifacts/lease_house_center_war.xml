@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="lease-house-center:war">
+    <output-path>$PROJECT_DIR$/lease-house-center/target</output-path>
+    <root id="archive" name="lease-house-center-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="lease-house-center:war exploded" />
+    </root>
+  </artifact>
+</component>

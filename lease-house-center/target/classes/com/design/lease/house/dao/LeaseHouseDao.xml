@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.design.lease.house.dao.LeaseHouseDao" >
+    <resultMap id="BaseResultMap" type="com.design.lease.house.po.LeaseHousePO" >
+        <id column="id" property="id" jdbcType="BIGINT" />
+        <result column="house_no" property="houseNo" jdbcType="VARCHAR" />
+        <result column="house_name" property="houseName" jdbcType="VARCHAR" />
+        <result column="address" property="address" jdbcType="VARCHAR" />
+        <result column="type" property="type" jdbcType="TINYINT" />
+        <result column="house_type" property="houseType" jdbcType="TINYINT" />
+        <result column="decorate" property="decorate" jdbcType="TINYINT" />
+        <result column="area" property="area" jdbcType="DECIMAL" />
+        <result column="amount" property="amount" jdbcType="BIGINT" />
+        <result column="pay_type" property="payType" jdbcType="TINYINT" />
+        <result column="orientation" property="orientation" jdbcType="TINYINT" />
+        <result column="status" property="status" jdbcType="TINYINT" />
+        <result column="public_time" property="publicTime" jdbcType="TIMESTAMP" />
+        <result column="remark" property="remark" jdbcType="VARCHAR" />
+        <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+        <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
+    </resultMap>
+
+    <sql id="Base_Column_List" >
+        id, house_no, house_name, address, type, house_type, decorate, area, amount, pay_type, 
+        orientation, status, public_time, remark, create_time, update_time
+    </sql>
+
+    <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+        select 
+        <include refid="Base_Column_List" />
+        from lease_house
+        where id = #{id,jdbcType=BIGINT}
+    </select>
+
+    <insert id="insert" parameterType="com.design.lease.house.po.LeaseHousePO" >
+        insert into lease_house (id, house_no, house_name, 
+            address, type, house_type, 
+            decorate, area, amount, 
+            pay_type, orientation, status, 
+            public_time, remark, create_time, 
+            update_time)
+        values (#{id,jdbcType=BIGINT}, #{houseNo,jdbcType=VARCHAR}, #{houseName,jdbcType=VARCHAR}, 
+            #{address,jdbcType=VARCHAR}, #{type,jdbcType=TINYINT}, #{houseType,jdbcType=TINYINT}, 
+            #{decorate,jdbcType=TINYINT}, #{area,jdbcType=DECIMAL}, #{amount,jdbcType=BIGINT}, 
+            #{payType,jdbcType=TINYINT}, #{orientation,jdbcType=TINYINT}, #{status,jdbcType=TINYINT}, 
+            #{publicTime,jdbcType=TIMESTAMP}, #{remark,jdbcType=VARCHAR}, #{createTime,jdbcType=TIMESTAMP}, 
+            #{updateTime,jdbcType=TIMESTAMP})
+    </insert>
+
+    <update id="updateByPrimaryKeySelective" parameterType="com.design.lease.house.po.LeaseHousePO" >
+        update lease_house
+        <set >
+            <if test="houseNo != null" >
+                house_no = #{houseNo,jdbcType=VARCHAR},
+            </if>
+            <if test="houseName != null" >
+                house_name = #{houseName,jdbcType=VARCHAR},
+            </if>
+            <if test="address != null" >
+                address = #{address,jdbcType=VARCHAR},
+            </if>
+            <if test="type != null" >
+                type = #{type,jdbcType=TINYINT},
+            </if>
+            <if test="houseType != null" >
+                house_type = #{houseType,jdbcType=TINYINT},
+            </if>
+            <if test="decorate != null" >
+                decorate = #{decorate,jdbcType=TINYINT},
+            </if>
+            <if test="area != null" >
+                area = #{area,jdbcType=DECIMAL},
+            </if>
+            <if test="amount != null" >
+                amount = #{amount,jdbcType=BIGINT},
+            </if>
+            <if test="payType != null" >
+                pay_type = #{payType,jdbcType=TINYINT},
+            </if>
+            <if test="orientation != null" >
+                orientation = #{orientation,jdbcType=TINYINT},
+            </if>
+            <if test="status != null" >
+                status = #{status,jdbcType=TINYINT},
+            </if>
+            <if test="publicTime != null" >
+                public_time = #{publicTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="remark != null" >
+                remark = #{remark,jdbcType=VARCHAR},
+            </if>
+            <if test="createTime != null" >
+                create_time = #{createTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="updateTime != null" >
+                update_time = #{updateTime,jdbcType=TIMESTAMP},
+            </if>
+        </set>
+        where id = #{id,jdbcType=BIGINT}
+    </update>
+
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+        delete from lease_house
+        where id = #{id,jdbcType=BIGINT}
+    </delete>
+
+</mapper>

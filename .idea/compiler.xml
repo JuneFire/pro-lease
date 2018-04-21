@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lease-account-api" />
+        <module name="lease-account-center" />
+        <module name="lease-common-code" />
+        <module name="lease-fixin-api" />
+        <module name="lease-house-api" />
+        <module name="lease-house-center" />
+        <module name="lease-landlord-api" />
+        <module name="lease-landlord-center" />
+        <module name="lease-ms" />
+        <module name="lease-tenant-api" />
+        <module name="lease-tenant-center" />
+        <module name="lease-trade-api" />
+        <module name="lease-trade-center" />
+        <module name="lease-ws-api" />
+        <module name="lease-ws-code" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="lease-account-api" target="1.7" />
+      <module name="lease-account-center" target="1.7" />
+      <module name="lease-common-code" target="1.8" />
+      <module name="lease-fixin-api" target="1.8" />
+      <module name="lease-house-api" target="1.8" />
+      <module name="lease-house-center" target="1.8" />
+      <module name="lease-landlord-api" target="1.8" />
+      <module name="lease-landlord-center" target="1.8" />
+      <module name="lease-ms" target="1.8" />
+      <module name="lease-parent" target="1.8" />
+      <module name="lease-tenant-api" target="1.8" />
+      <module name="lease-tenant-center" target="1.8" />
+      <module name="lease-trade-api" target="1.8" />
+      <module name="lease-trade-center" target="1.8" />
+      <module name="lease-ws-api" target="1.8" />
+      <module name="lease-ws-code" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

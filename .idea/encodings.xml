@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/lease-account-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lease-account-center" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lease-common-code" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lease-fixin-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lease-house-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lease-house-center" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lease-ms" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lease-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lease-trade-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lease-trade-center" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lease-ws-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lease-ws-code" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

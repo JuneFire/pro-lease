@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.design.lease.pay.dao.LeasePayDetailDao" >
+    <resultMap id="BaseResultMap" type="com.design.lease.trade.po.LeasePayDetailPO" >
+        <id column="id" property="id" jdbcType="BIGINT" />
+        <result column="tenant_uid" property="tenantUid" jdbcType="BIGINT" />
+        <result column="uname" property="uname" jdbcType="VARCHAR" />
+        <result column="amount" property="amount" jdbcType="BIGINT" />
+        <result column="house_no" property="houseNo" jdbcType="VARCHAR" />
+        <result column="house_name" property="houseName" jdbcType="VARCHAR" />
+        <result column="pay_order_id" property="payOrderId" jdbcType="VARCHAR" />
+        <result column="status" property="status" jdbcType="TINYINT" />
+        <result column="confirm_time" property="confirmTime" jdbcType="TIMESTAMP" />
+        <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+        <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
+    </resultMap>
+
+    <sql id="Base_Column_List" >
+        id, tenant_uid, uname, amount, house_no, house_name, pay_order_id, status, confirm_time, 
+        create_time, update_time
+    </sql>
+
+    <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+        select 
+        <include refid="Base_Column_List" />
+        from lease_pay_detail
+        where id = #{id,jdbcType=BIGINT}
+    </select>
+
+    <insert id="insert" parameterType="com.design.lease.trade.po.LeasePayDetailPO" >
+        insert into lease_pay_detail (id, tenant_uid, uname, 
+            amount, house_no, house_name, 
+            pay_order_id, status, confirm_time, 
+            create_time, update_time)
+        values (#{id,jdbcType=BIGINT}, #{tenantUid,jdbcType=BIGINT}, #{uname,jdbcType=VARCHAR}, 
+            #{amount,jdbcType=BIGINT}, #{houseNo,jdbcType=VARCHAR}, #{houseName,jdbcType=VARCHAR}, 
+            #{payOrderId,jdbcType=VARCHAR}, #{status,jdbcType=TINYINT}, #{confirmTime,jdbcType=TIMESTAMP}, 
+            #{createTime,jdbcType=TIMESTAMP}, #{updateTime,jdbcType=TIMESTAMP})
+    </insert>
+
+    <update id="updateByPrimaryKeySelective" parameterType="com.design.lease.trade.po.LeasePayDetailPO" >
+        update lease_pay_detail
+        <set >
+            <if test="tenantUid != null" >
+                tenant_uid = #{tenantUid,jdbcType=BIGINT},
+            </if>
+            <if test="uname != null" >
+                uname = #{uname,jdbcType=VARCHAR},
+            </if>
+            <if test="amount != null" >
+                amount = #{amount,jdbcType=BIGINT},
+            </if>
+            <if test="houseNo != null" >
+                house_no = #{houseNo,jdbcType=VARCHAR},
+            </if>
+            <if test="houseName != null" >
+                house_name = #{houseName,jdbcType=VARCHAR},
+            </if>
+            <if test="payOrderId != null" >
+                pay_order_id = #{payOrderId,jdbcType=VARCHAR},
+            </if>
+            <if test="status != null" >
+                status = #{status,jdbcType=TINYINT},
+            </if>
+            <if test="confirmTime != null" >
+                confirm_time = #{confirmTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="createTime != null" >
+                create_time = #{createTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="updateTime != null" >
+                update_time = #{updateTime,jdbcType=TIMESTAMP},
+            </if>
+        </set>
+        where id = #{id,jdbcType=BIGINT}
+    </update>
+
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+        delete from lease_pay_detail
+        where id = #{id,jdbcType=BIGINT}
+    </delete>
+
+</mapper>

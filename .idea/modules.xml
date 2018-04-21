@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/lease-account-api/lease-account-api.iml" filepath="$PROJECT_DIR$/lease-account-api/lease-account-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lease-account-center/lease-account-center.iml" filepath="$PROJECT_DIR$/lease-account-center/lease-account-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lease-common-code/lease-common-code.iml" filepath="$PROJECT_DIR$/lease-common-code/lease-common-code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lease-fixin-api/lease-fixin-api.iml" filepath="$PROJECT_DIR$/lease-fixin-api/lease-fixin-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lease-house-api/lease-house-api.iml" filepath="$PROJECT_DIR$/lease-house-api/lease-house-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lease-house-center/lease-house-center.iml" filepath="$PROJECT_DIR$/lease-house-center/lease-house-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lease-trade-api/lease-landlord-api.iml" filepath="$PROJECT_DIR$/lease-trade-api/lease-landlord-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lease-trade-center/lease-landlord-center.iml" filepath="$PROJECT_DIR$/lease-trade-center/lease-landlord-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lease-ms/lease-ms.iml" filepath="$PROJECT_DIR$/lease-ms/lease-ms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lease-parent/lease-parent.iml" filepath="$PROJECT_DIR$/lease-parent/lease-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lease-house-api/lease-tenant-api.iml" filepath="$PROJECT_DIR$/lease-house-api/lease-tenant-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lease-ws-api/lease-ws-api.iml" filepath="$PROJECT_DIR$/lease-ws-api/lease-ws-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lease-ws-code/lease-ws-code.iml" filepath="$PROJECT_DIR$/lease-ws-code/lease-ws-code.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.design.lease.house.dao.LeaseHouseTempDao" >
+    <resultMap id="BaseResultMap" type="com.design.lease.house.po.LeaseHouseTempPO" >
+        <id column="id" property="id" jdbcType="BIGINT" />
+        <result column="house_type" property="houseType" jdbcType="TINYINT" />
+        <result column="decorate" property="decorate" jdbcType="TINYINT" />
+        <result column="area" property="area" jdbcType="DECIMAL" />
+        <result column="amount" property="amount" jdbcType="BIGINT" />
+        <result column="pay_type" property="payType" jdbcType="TINYINT" />
+        <result column="orientation" property="orientation" jdbcType="TINYINT" />
+        <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+        <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
+    </resultMap>
+
+    <sql id="Base_Column_List" >
+        id, house_type, decorate, area, amount, pay_type, orientation, create_time, update_time
+    </sql>
+
+    <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+        select 
+        <include refid="Base_Column_List" />
+        from lease_landlord_house_temp
+        where id = #{id,jdbcType=BIGINT}
+    </select>
+
+    <insert id="insert" parameterType="com.design.lease.house.po.LeaseHouseTempPO" >
+        insert into lease_landlord_house_temp (id, house_type, decorate, 
+            area, amount, pay_type, 
+            orientation, create_time, update_time
+            )
+        values (#{id,jdbcType=BIGINT}, #{houseType,jdbcType=TINYINT}, #{decorate,jdbcType=TINYINT}, 
+            #{area,jdbcType=DECIMAL}, #{amount,jdbcType=BIGINT}, #{payType,jdbcType=TINYINT}, 
+            #{orientation,jdbcType=TINYINT}, #{createTime,jdbcType=TIMESTAMP}, #{updateTime,jdbcType=TIMESTAMP}
+            )
+    </insert>
+
+    <update id="updateByPrimaryKeySelective" parameterType="com.design.lease.house.po.LeaseHouseTempPO" >
+        update lease_landlord_house_temp
+        <set >
+            <if test="houseType != null" >
+                house_type = #{houseType,jdbcType=TINYINT},
+            </if>
+            <if test="decorate != null" >
+                decorate = #{decorate,jdbcType=TINYINT},
+            </if>
+            <if test="area != null" >
+                area = #{area,jdbcType=DECIMAL},
+            </if>
+            <if test="amount != null" >
+                amount = #{amount,jdbcType=BIGINT},
+            </if>
+            <if test="payType != null" >
+                pay_type = #{payType,jdbcType=TINYINT},
+            </if>
+            <if test="orientation != null" >
+                orientation = #{orientation,jdbcType=TINYINT},
+            </if>
+            <if test="createTime != null" >
+                create_time = #{createTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="updateTime != null" >
+                update_time = #{updateTime,jdbcType=TIMESTAMP},
+            </if>
+        </set>
+        where id = #{id,jdbcType=BIGINT}
+    </update>
+
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+        delete from lease_landlord_house_temp
+        where id = #{id,jdbcType=BIGINT}
+    </delete>
+
+</mapper>

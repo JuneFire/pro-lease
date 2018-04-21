@@ -1,0 +1,20 @@
+/**
+ * TODO: complete the comment
+ */
+package com.design.lease.account.dao;
+
+import com.design.lease.account.po.LeaseAccountPO;
+
+public interface LeaseAccountDao {
+    int deleteByPrimaryKey(Long id);
+
+    int insert(LeaseAccountPO record);
+
+    int insertSelective(LeaseAccountPO record);
+
+    LeaseAccountPO selectByPrimaryKey(Long id);
+
+    int updateByPrimaryKeySelective(LeaseAccountPO record);
+
+    int updateByPrimaryKey(LeaseAccountPO record);
+}

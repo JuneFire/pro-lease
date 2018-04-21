@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.design.lease.user.dao.LeaseUserInfoDao" >
+    <resultMap id="BaseResultMap" type="com.design.lease.user.po.LeaseUserInfoPO" >
+        <id column="id" property="id" jdbcType="BIGINT" />
+        <result column="uid" property="uid" jdbcType="BIGINT" />
+        <result column="uname" property="uname" jdbcType="VARCHAR" />
+        <result column="amount" property="amount" jdbcType="BIGINT" />
+        <result column="iphone" property="iphone" jdbcType="VARCHAR" />
+        <result column="email" property="email" jdbcType="VARCHAR" />
+        <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+        <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
+    </resultMap>
+
+    <sql id="Base_Column_List" >
+        id, uid, uname, amount, iphone, email, create_time, update_time
+    </sql>
+
+    <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+        select 
+        <include refid="Base_Column_List" />
+        from lease_user_info
+        where id = #{id,jdbcType=BIGINT}
+    </select>
+
+    <insert id="insert" parameterType="com.design.lease.user.po.LeaseUserInfoPO" >
+        insert into lease_user_info (id, uid, uname, 
+            amount, iphone, email, 
+            create_time, update_time)
+        values (#{id,jdbcType=BIGINT}, #{uid,jdbcType=BIGINT}, #{uname,jdbcType=VARCHAR}, 
+            #{amount,jdbcType=VARCHAR}, #{iphone,jdbcType=VARCHAR}, #{email,jdbcType=VARCHAR}, 
+            #{createTime,jdbcType=TIMESTAMP}, #{updateTime,jdbcType=TIMESTAMP})
+    </insert>
+
+    <update id="updateByPrimaryKeySelective" parameterType="com.design.lease.user.po.LeaseUserInfoPO" >
+        update lease_user_info
+        <set >
+            <if test="uid != null" >
+                uid = #{uid,jdbcType=BIGINT},
+            </if>
+            <if test="uname != null" >
+                uname = #{uname,jdbcType=VARCHAR},
+            </if>
+            <if test="amount != null" >
+                amount = #{amount,jdbcType=VARCHAR},
+            </if>
+            <if test="iphone != null" >
+                iphone = #{iphone,jdbcType=VARCHAR},
+            </if>
+            <if test="email != null" >
+                email = #{email,jdbcType=VARCHAR},
+            </if>
+            <if test="createTime != null" >
+                create_time = #{createTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="updateTime != null" >
+                update_time = #{updateTime,jdbcType=TIMESTAMP},
+            </if>
+        </set>
+        where id = #{id,jdbcType=BIGINT}
+    </update>
+
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+        delete from lease_user_info
+        where id = #{id,jdbcType=BIGINT}
+    </delete>
+
+</mapper>

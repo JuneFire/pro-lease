@@ -1,0 +1,47 @@
+<web-app>
+    <display-name>Archetype Created Web Application</display-name>
+
+    <servlet>
+        <servlet-name>lease</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <init-param>
+            <param-name>contextConfigLocation</param-name>
+            <!-- <param-value>/WEB-INF/applicationContext-*.xml,classpath*:applicationContext-*.xml</param-value> -->
+            <!-- 加入你的配置文件放在了src下的，命名规则为：applicationContext-*.xml形式，则可以从以下方式配置-->
+            <param-value>classpath:/spring/applicationContext-**.xml</param-value>
+        </init-param>
+    </servlet>
+
+    <listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+
+    <servlet-mapping>
+        <servlet-name>lease</servlet-name>
+        <url-pattern>/landlord/*</url-pattern>
+    </servlet-mapping>
+
+    <!--<listener>-->
+    <!--<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>-->
+    <!--</listener>-->
+
+    <!--<listener>-->
+    <!--<listener-class>com.spring.blog.test.ws.servlet.WsConfigServletContext</listener-class>-->
+    <!--</listener>-->
+    <!--<filter>-->
+    <!--<filter-name>wsConfigFilter</filter-name>-->
+    <!--<filter-class>com.spring.blog.test.ws.servlet.WsConfigFilter</filter-class>-->
+    <!--</filter>-->
+    <!--<filter-mapping>-->
+    <!--<filter-name>wsConfigFilter</filter-name>-->
+    <!--<url-pattern>/blog/*</url-pattern>-->
+    <!--</filter-mapping>-->
+
+    <!-- Context Configuration locations for Spring XML files -->
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <!-- <param-value>/WEB-INF/applicationContext-*.xml,classpath*:applicationContext-*.xml</param-value> -->
+        <!-- 加入你的配置文件放在了src下的，命名规则为：applicationContext-*.xml形式，则可以从以下方式配置-->
+        <param-value>classpath:/spring/applicationContext-**.xml</param-value>
+    </context-param>
+</web-app>

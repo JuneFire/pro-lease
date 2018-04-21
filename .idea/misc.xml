@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/lease-account-api" />
+    <file type="web" url="file://$PROJECT_DIR$/lease-account-center" />
+    <file type="web" url="file://$PROJECT_DIR$/lease-common-code" />
+    <file type="web" url="file://$PROJECT_DIR$/lease-fixin-api" />
+    <file type="web" url="file://$PROJECT_DIR$/lease-house-api" />
+    <file type="web" url="file://$PROJECT_DIR$/lease-house-center" />
+    <file type="web" url="file://$PROJECT_DIR$/lease-ms" />
+    <file type="web" url="file://$PROJECT_DIR$/lease-trade-api" />
+    <file type="web" url="file://$PROJECT_DIR$/lease-trade-center" />
+    <file type="web" url="file://$PROJECT_DIR$/lease-ws-api" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/lease-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/lease-common-code/pom.xml" />
+        <option value="$PROJECT_DIR$/lease-tenant-api/pom.xml" />
+        <option value="$PROJECT_DIR$/lease-landlord-api/pom.xml" />
+        <option value="$PROJECT_DIR$/lease-fixin-api/pom.xml" />
+        <option value="$PROJECT_DIR$/lease-account-api/pom.xml" />
+        <option value="$PROJECT_DIR$/lease-house-api/pom.xml" />
+        <option value="$PROJECT_DIR$/lease-trade-api/pom.xml" />
+        <option value="$PROJECT_DIR$/lease-ws-code/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_9" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.design.lease.landlord.dao.LeaseLandlordDetailDao" >
+    <resultMap id="BaseResultMap" type="com.design.lease.trade.po.LeaseLandlordDetailPO" >
+        <id column="id" property="id" jdbcType="BIGINT" />
+        <result column="landlord_uid" property="landlordUid" jdbcType="BIGINT" />
+        <result column="tenant_uid" property="tenantUid" jdbcType="BIGINT" />
+        <result column="house_no" property="houseNo" jdbcType="VARCHAR" />
+        <result column="period" property="period" jdbcType="INTEGER" />
+        <result column="status" property="status" jdbcType="TINYINT" />
+        <result column="amount_status" property="amountStatus" jdbcType="TINYINT" />
+        <result column="total_amount" property="totalAmount" jdbcType="BIGINT" />
+        <result column="remain_amount" property="remainAmount" jdbcType="BIGINT" />
+        <result column="amount" property="amount" jdbcType="BIGINT" />
+        <result column="landlord_order_id" property="landlordOrderId" jdbcType="VARCHAR" />
+        <result column="end_date" property="endDate" jdbcType="TIMESTAMP" />
+        <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+        <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
+    </resultMap>
+
+    <sql id="Base_Column_List" >
+        id, landlord_uid, tenant_uid, house_no, period, status, amount_status, total_amount, 
+        remain_amount, amount, landlord_order_id, end_date, create_time, update_time
+    </sql>
+
+    <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+        select 
+        <include refid="Base_Column_List" />
+        from lease_landlord_detail
+        where id = #{id,jdbcType=BIGINT}
+    </select>
+
+    <insert id="insert" parameterType="com.design.lease.trade.po.LeaseLandlordDetailPO" >
+        insert into lease_landlord_detail (id, landlord_uid, tenant_uid, 
+            house_no, period, status, 
+            amount_status, total_amount, remain_amount, 
+            amount, landlord_order_id, end_date, 
+            create_time, update_time)
+        values (#{id,jdbcType=BIGINT}, #{landlordUid,jdbcType=BIGINT}, #{tenantUid,jdbcType=BIGINT}, 
+            #{houseNo,jdbcType=VARCHAR}, #{period,jdbcType=INTEGER}, #{status,jdbcType=TINYINT}, 
+            #{amountStatus,jdbcType=TINYINT}, #{totalAmount,jdbcType=BIGINT}, #{remainAmount,jdbcType=BIGINT}, 
+            #{amount,jdbcType=BIGINT}, #{landlordOrderId,jdbcType=VARCHAR}, #{endDate,jdbcType=TIMESTAMP}, 
+            #{createTime,jdbcType=TIMESTAMP}, #{updateTime,jdbcType=TIMESTAMP})
+    </insert>
+
+    <update id="updateByPrimaryKeySelective" parameterType="com.design.lease.trade.po.LeaseLandlordDetailPO" >
+        update lease_landlord_detail
+        <set >
+            <if test="landlordUid != null" >
+                landlord_uid = #{landlordUid,jdbcType=BIGINT},
+            </if>
+            <if test="tenantUid != null" >
+                tenant_uid = #{tenantUid,jdbcType=BIGINT},
+            </if>
+            <if test="houseNo != null" >
+                house_no = #{houseNo,jdbcType=VARCHAR},
+            </if>
+            <if test="period != null" >
+                period = #{period,jdbcType=INTEGER},
+            </if>
+            <if test="status != null" >
+                status = #{status,jdbcType=TINYINT},
+            </if>
+            <if test="amountStatus != null" >
+                amount_status = #{amountStatus,jdbcType=TINYINT},
+            </if>
+            <if test="totalAmount != null" >
+                total_amount = #{totalAmount,jdbcType=BIGINT},
+            </if>
+            <if test="remainAmount != null" >
+                remain_amount = #{remainAmount,jdbcType=BIGINT},
+            </if>
+            <if test="amount != null" >
+                amount = #{amount,jdbcType=BIGINT},
+            </if>
+            <if test="landlordOrderId != null" >
+                landlord_order_id = #{landlordOrderId,jdbcType=VARCHAR},
+            </if>
+            <if test="endDate != null" >
+                end_date = #{endDate,jdbcType=TIMESTAMP},
+            </if>
+            <if test="createTime != null" >
+                create_time = #{createTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="updateTime != null" >
+                update_time = #{updateTime,jdbcType=TIMESTAMP},
+            </if>
+        </set>
+        where id = #{id,jdbcType=BIGINT}
+    </update>
+
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+        delete from lease_landlord_detail
+        where id = #{id,jdbcType=BIGINT}
+    </delete>
+
+</mapper>
