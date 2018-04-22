@@ -8,6 +8,9 @@ public class RpcCommonConstant {
     public static final String PARAM_ERROR_CODE = "99999";
     public static final String PARAM_ERROR_DESC = "参数错误";
 
+    public static final String FAIL_CODE = "99995";
+    public static final String FAIL_DESC = "请求失败";
+
     public static final String UNKNOWN_ERROR_CODE = "99998";
     public static final String UNKNOWN_ERROR_DESC = "未知错误";
 

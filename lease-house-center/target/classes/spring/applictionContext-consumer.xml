@@ -6,13 +6,13 @@
        http://www.springframework.org/schema/beans/spring-beans.xsd
        http://code.alibabatech.com/schema/dubbo
        http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
-    <dubbo:application name="consumer-cts" />
-
-    <dubbo:registry address="zookeeper://127.0.0.1:2181" />
-
-    <dubbo:provider registry="20880"/>
 
     <dubbo:reference id="accountHouseRpcService"
                      interface="com.design.lease.house.service.AccountHouseRpcService" lazy="false"
-                     check="false" version="1.0.0" timeout="5000" />
+                     check="false" timeout="5000" />
+
+    <dubbo:reference id="tradeHouseRpcService"
+                     interface="com.design.lease.house.service.TradeHouseRpcService" lazy="false"
+                     check="false" timeout="5000"/>
+
 </beans>

@@ -12,6 +12,8 @@ public class HouseDto implements Serializable{
 
     private Integer status;
 
+    private Long uid;
+
     public String getHouseNo() {
         return houseNo;
     }
@@ -34,5 +36,14 @@ public class HouseDto implements Serializable{
 
     public void setStatus(Integer status) {
         this.status = status;
+    }
+
+
+    public Long getUid() {
+        return uid;
+    }
+
+    public void setUid(Long uid) {
+        this.uid = uid;
     }
 }

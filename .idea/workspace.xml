@@ -6,7 +6,39 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4737e008-c43d-49e4-b894-56013dd429aa" name="Default" comment="" />
+    <list default="true" id="4737e008-c43d-49e4-b894-56013dd429aa" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lease-house-api/src/main/java/com/design/lease/bo/HouseRelationDetailBO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lease-house-center/src/test/java/com/design/lease/lease/HouseDetailTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lease-ws-api/src/main/java/com/design/lease/house/bo/WsHouseRelationDetailBO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lease-ws-api/src/main/java/com/design/lease/house/service/HouseRelationDetailService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lease-ws-api/src/main/java/com/design/lease/house/service/HouseRelationService.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lease-account-api/target/classes/com/design/lease/house/bo/HouseDetalBO.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lease-house-api/target/classes/com/design/lease/bo/HouseDetailBO.class" afterPath="$PROJECT_DIR$/lease-house-api/target/classes/com/design/lease/bo/HouseDetailBO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lease-house-center/target/classes/com/design/lease/house/dao/LeaseHouseDao.class" afterPath="$PROJECT_DIR$/lease-house-center/target/classes/com/design/lease/house/dao/LeaseHouseDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/lease_account_center_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/lease_account_center_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lease-account-api/lease-account-api.iml" afterPath="$PROJECT_DIR$/lease-account-api/lease-account-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lease-account-center/lease-account-center.iml" afterPath="$PROJECT_DIR$/lease-account-center/lease-account-center.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lease-common-code/lease-common-code.iml" afterPath="$PROJECT_DIR$/lease-common-code/lease-common-code.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lease-common-code/src/main/java/com/design/lease/rpc/constant/RpcCommonConstant.java" afterPath="$PROJECT_DIR$/lease-common-code/src/main/java/com/design/lease/rpc/constant/RpcCommonConstant.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lease-common-code/src/main/java/com/design/lease/rpc/dto/RpcResponseDTO.java" afterPath="$PROJECT_DIR$/lease-common-code/src/main/java/com/design/lease/rpc/dto/RpcResponseDTO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lease-fixin-api/lease-fixin-api.iml" afterPath="$PROJECT_DIR$/lease-fixin-api/lease-fixin-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lease-house-api/lease-house-api.iml" afterPath="$PROJECT_DIR$/lease-house-api/lease-house-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lease-house-api/src/main/java/com/design/lease/account/dto/HouseDto.java" afterPath="$PROJECT_DIR$/lease-house-api/src/main/java/com/design/lease/account/dto/HouseDto.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lease-house-api/src/main/java/com/design/lease/rpc/HouseRpcService.java" afterPath="$PROJECT_DIR$/lease-house-api/src/main/java/com/design/lease/rpc/HouseRpcService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lease-house-center/src/main/java/com/design/lease/house/dao/LeaseHouseDao.java" afterPath="$PROJECT_DIR$/lease-house-center/src/main/java/com/design/lease/house/dao/LeaseHouseDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lease-house-center/src/main/java/com/design/lease/house/dao/LeaseHouseRelationDao.java" afterPath="$PROJECT_DIR$/lease-house-center/src/main/java/com/design/lease/house/dao/LeaseHouseRelationDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lease-house-center/src/main/java/com/design/lease/house/handler/HouseHandler.java" afterPath="$PROJECT_DIR$/lease-house-center/src/main/java/com/design/lease/house/handler/HouseHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lease-house-center/src/main/java/com/design/lease/house/rpc/HouseRpcServiceImpl.java" afterPath="$PROJECT_DIR$/lease-house-center/src/main/java/com/design/lease/house/rpc/HouseRpcServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lease-house-center/src/main/resources/com/design/lease/house/dao/LeaseHouseDao.xml" afterPath="$PROJECT_DIR$/lease-house-center/src/main/resources/com/design/lease/house/dao/LeaseHouseDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lease-house-center/src/main/resources/com/design/lease/house/dao/LeaseHouseRelationDao.xml" afterPath="$PROJECT_DIR$/lease-house-center/src/main/resources/com/design/lease/house/dao/LeaseHouseRelationDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lease-house-center/target/classes/com/design/lease/house/dao/LeaseHouseDao.xml" afterPath="$PROJECT_DIR$/lease-house-center/target/classes/com/design/lease/house/dao/LeaseHouseDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lease-house-center/target/classes/spring/applictionContext-consumer.xml" afterPath="$PROJECT_DIR$/lease-house-center/target/classes/spring/applictionContext-consumer.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lease-house-center/target/classes/spring/applictionContext-dubbo.xml" afterPath="$PROJECT_DIR$/lease-house-center/target/classes/spring/applictionContext-dubbo.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lease-ws-api/src/main/java/com/design/lease/house/controller/HouseController.java" afterPath="$PROJECT_DIR$/lease-ws-api/src/main/java/com/design/lease/house/controller/HouseController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lease-ws-api/src/main/java/com/design/lease/house/service/HouseDetailService.java" afterPath="$PROJECT_DIR$/lease-ws-api/src/main/java/com/design/lease/house/service/HouseDetailService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lease-ws-code/lease-ws-code.iml" afterPath="$PROJECT_DIR$/lease-ws-code/lease-ws-code.iml" />
+    </list>
     <ignored path="$PROJECT_DIR$/lease-parent/target/" />
     <ignored path="$PROJECT_DIR$/lease-common-code/target/" />
     <ignored path="$PROJECT_DIR$/lease-tenant-api/target/" />
@@ -43,11 +75,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HouseListService.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lease-ws-api/src/main/java/com/design/lease/house/service/HouseListService.java">
+      <file leaf-file-name="HouseController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lease-ws-api/src/main/java/com/design/lease/house/controller/HouseController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+            <state relative-caret-position="910">
+              <caret line="46" column="5" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lease-trade-center/src/test/java/com/design/lease/AppTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HouseDetailTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lease-house-center/src/test/java/com/design/lease/lease/HouseDetailTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="16" column="60" lean-forward="false" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,113 +107,74 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lease-parent/pom.xml">
+      <file leaf-file-name="HouseService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lease-house-center/src/main/java/com/design/lease/house/service/HouseService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="70" column="44" lean-forward="true" selection-start-line="70" selection-start-column="44" selection-end-line="70" selection-end-column="44" />
+            <state relative-caret-position="78">
+              <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HouseStatusEnum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lease-house-api/src/main/java/com/design/lease/enums/HouseStatusEnum.java">
+      <file leaf-file-name="LeaseHouseDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lease-house-center/src/main/java/com/design/lease/house/dao/LeaseHouseDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="24" column="5" selection-start-line="8" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
+            <state relative-caret-position="520">
+              <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LeaseHouseImgDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lease-house-center/src/main/java/com/design/lease/house/dao/LeaseHouseImgDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LeaseHouseRelationDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lease-house-center/src/main/java/com/design/lease/house/dao/LeaseHouseRelationDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="21" column="56" lean-forward="false" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
               <folding>
-                <element signature="e#473#474#0" expanded="true" />
-                <element signature="e#500#501#0" expanded="true" />
-                <element signature="e#531#532#0" expanded="true" />
-                <element signature="e#558#559#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TypeEnum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lease-house-api/src/main/java/com/design/lease/enums/TypeEnum.java">
+      <file leaf-file-name="HouseHandler.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lease-house-center/src/main/java/com/design/lease/house/handler/HouseHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-              <folding>
-                <element signature="e#275#276#0" expanded="true" />
-                <element signature="e#302#303#0" expanded="true" />
-                <element signature="e#333#334#0" expanded="true" />
-                <element signature="e#360#361#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="312">
+              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HouseTypeEnum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lease-house-api/src/main/java/com/design/lease/enums/HouseTypeEnum.java">
+      <file leaf-file-name="LeaseHouseTempDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lease-house-center/src/main/java/com/design/lease/house/dao/LeaseHouseTempDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="23" column="5" selection-start-line="7" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
-              <folding>
-                <element signature="e#374#375#0" expanded="true" />
-                <element signature="e#401#402#0" expanded="true" />
-                <element signature="e#432#433#0" expanded="true" />
-                <element signature="e#459#460#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="130">
+              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DecorateTypeEnum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lease-house-api/src/main/java/com/design/lease/enums/DecorateTypeEnum.java">
+      <file leaf-file-name="AccountService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lease-account-center/src/main/java/com/design/lease/account/service/AccountService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-              <folding>
-                <element signature="e#310#311#0" expanded="true" />
-                <element signature="e#337#338#0" expanded="true" />
-                <element signature="e#368#369#0" expanded="true" />
-                <element signature="e#395#396#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PayTypeEnum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lease-house-api/src/main/java/com/design/lease/enums/PayTypeEnum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="4" column="75" selection-start-line="4" selection-start-column="75" selection-end-line="4" selection-end-column="75" />
-              <folding>
-                <element signature="e#311#312#0" expanded="true" />
-                <element signature="e#338#339#0" expanded="true" />
-                <element signature="e#369#370#0" expanded="true" />
-                <element signature="e#396#397#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HouseRpcService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lease-house-api/src/main/java/com/design/lease/rpc/HouseRpcService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="10" column="66" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HouseController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lease-ws-api/src/main/java/com/design/lease/house/controller/HouseController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WsHouseDetailBO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lease-ws-api/src/main/java/com/design/lease/house/bo/WsHouseDetailBO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="104">
+              <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -173,8 +186,8 @@
       <list>
         <option value="spring-beans.schema" />
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -197,6 +210,7 @@
       <find>forbidden</find>
       <find>accountHouseRpcService</find>
       <find>beanClassName</find>
+      <find>lom</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -205,18 +219,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lease-house-center/src/main/java/com/design/lease/house/rpc/HouseAccountRpcServiceImpl.java" />
-        <option value="$PROJECT_DIR$/lease-account-center/pom.xml" />
-        <option value="$PROJECT_DIR$/lease-account-center/src/main/resources/spring/applicationContext-consumer.xml" />
-        <option value="$PROJECT_DIR$/lease-trade-center/pom.xml" />
-        <option value="$PROJECT_DIR$/lease-trade-center/src/main/java/com/design/lease/rpc/TradeAccountRpcServiceImpl.java" />
-        <option value="$PROJECT_DIR$/lease-trade-api/src/main/java/com/design/lease/account/service/TradeAccountRpcService.java" />
-        <option value="$PROJECT_DIR$/lease-trade-api/src/main/java/com/design/lease/house/service/TradeHouseRpcService.java" />
-        <option value="$PROJECT_DIR$/lease-trade-center/src/main/java/com/design/lease/rpc/TradeHouseRpcServiceImpl.java" />
-        <option value="$PROJECT_DIR$/lease-house-center/pom.xml" />
         <option value="$PROJECT_DIR$/lease-trade-center/src/main/resources/spring/applictionContext-dubbo.xml" />
         <option value="$PROJECT_DIR$/lease-trade-center/src/main/resources/spring/applictionContext-consumer.xml" />
         <option value="$PROJECT_DIR$/lease-house-center/src/main/resources/spring/applictionContext-consumer.xml" />
@@ -239,26 +249,35 @@
         <option value="$PROJECT_DIR$/lease-ws-api/src/main/java/com/design/lease/house/vo/HouseFilterVo.java" />
         <option value="$PROJECT_DIR$/lease-house-api/pom.xml" />
         <option value="$PROJECT_DIR$/lease-ws-api/src/main/java/com/design/lease/house/vo/HouseBodyVo.java" />
-        <option value="$PROJECT_DIR$/lease-house-api/src/main/java/com/design/lease/account/dto/HouseDto.java" />
-        <option value="$PROJECT_DIR$/lease-house-center/src/main/resources/com/design/lease/house/dao/LeaseHouseDao.xml" />
-        <option value="$PROJECT_DIR$/lease-house-center/src/main/java/com/design/lease/house/dao/LeaseHouseDao.java" />
-        <option value="$PROJECT_DIR$/lease-house-api/src/main/java/com/design/lease/rpc/HouseRpcService.java" />
         <option value="$PROJECT_DIR$/lease-account-api/src/main/java/com/design/lease/house/bo/HouseDetalBO.java" />
         <option value="$PROJECT_DIR$/lease-house-api/src/main/java/com/design/lease/bo/HouseDetailBO.java" />
-        <option value="$PROJECT_DIR$/lease-house-center/src/main/java/com/design/lease/house/handler/HouseHandler.java" />
         <option value="$PROJECT_DIR$/lease-house-center/src/main/resources/spring/applictionContext-dubbo.xml" />
-        <option value="$PROJECT_DIR$/lease-house-center/src/main/java/com/design/lease/house/rpc/HouseRpcServiceImpl.java" />
         <option value="$PROJECT_DIR$/lease-ws-api/src/main/java/com/design/lease/house/service/HouseService.java" />
-        <option value="$PROJECT_DIR$/lease-ws-api/src/main/java/com/design/lease/house/service/HouseDetailService.java" />
         <option value="$PROJECT_DIR$/lease-ws-api/src/main/java/com/design/lease/house/bo/WsHouseDetailBO.java" />
-        <option value="$PROJECT_DIR$/lease-ws-api/src/main/java/com/design/lease/house/controller/HouseController.java" />
         <option value="$PROJECT_DIR$/lease-house-api/src/main/java/com/design/lease/enums/HouseStatusEnum.java" />
         <option value="$PROJECT_DIR$/lease-house-api/src/main/java/com/design/lease/enums/TypeEnum.java" />
         <option value="$PROJECT_DIR$/lease-house-api/src/main/java/com/design/lease/enums/HouseTypeEnum.java" />
         <option value="$PROJECT_DIR$/lease-house-api/src/main/java/com/design/lease/enums/DecorateTypeEnum.java" />
         <option value="$PROJECT_DIR$/lease-house-api/src/main/java/com/design/lease/enums/PayTypeEnum.java" />
         <option value="$PROJECT_DIR$/lease-ws-api/src/main/java/com/design/lease/house/service/HouseListService.java" />
+        <option value="$PROJECT_DIR$/lease-house-center/src/main/java/com/design/lease/house/dao/LeaseHouseDao.java" />
+        <option value="$PROJECT_DIR$/lease-house-center/src/main/resources/com/design/lease/house/dao/LeaseHouseDao.xml" />
+        <option value="$PROJECT_DIR$/lease-house-center/src/test/java/com/design/lease/lease/HouseDetailTest.java" />
         <option value="$PROJECT_DIR$/lease-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/lease-ws-api/src/main/java/com/design/lease/house/service/HouseDetailService.java" />
+        <option value="$PROJECT_DIR$/lease-ws-api/src/main/java/com/design/lease/house/bo/WsHouseRelationDetailBO.java" />
+        <option value="$PROJECT_DIR$/lease-house-api/src/main/java/com/design/lease/bo/HouseRelationDetailBO.java" />
+        <option value="$PROJECT_DIR$/lease-common-code/src/main/java/com/design/lease/rpc/constant/RpcCommonConstant.java" />
+        <option value="$PROJECT_DIR$/lease-common-code/src/main/java/com/design/lease/rpc/dto/RpcResponseDTO.java" />
+        <option value="$PROJECT_DIR$/lease-house-api/src/main/java/com/design/lease/account/dto/HouseDto.java" />
+        <option value="$PROJECT_DIR$/lease-house-center/src/main/resources/com/design/lease/house/dao/LeaseHouseRelationDao.xml" />
+        <option value="$PROJECT_DIR$/lease-house-api/src/main/java/com/design/lease/rpc/HouseRpcService.java" />
+        <option value="$PROJECT_DIR$/lease-house-center/src/main/java/com/design/lease/house/dao/LeaseHouseRelationDao.java" />
+        <option value="$PROJECT_DIR$/lease-house-center/src/main/java/com/design/lease/house/handler/HouseHandler.java" />
+        <option value="$PROJECT_DIR$/lease-house-center/src/main/java/com/design/lease/house/rpc/HouseRpcServiceImpl.java" />
+        <option value="$PROJECT_DIR$/lease-ws-api/src/main/java/com/design/lease/house/service/HouseRelastionService.java" />
+        <option value="$PROJECT_DIR$/lease-ws-api/src/main/java/com/design/lease/house/service/HouseRelationDetailService.java" />
+        <option value="$PROJECT_DIR$/lease-ws-api/src/main/java/com/design/lease/house/controller/HouseController.java" />
       </list>
     </option>
   </component>
@@ -305,30 +324,184 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="960" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="pro-lease" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lease-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="lease-account-center" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-lease" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lease-account-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-lease" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lease-account-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-lease" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lease-account-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-lease" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lease-account-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lease" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-lease" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lease-account-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lease" type="462c0819:PsiDirectoryNode" />
+              <item name="account" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-lease" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lease-account-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lease" type="462c0819:PsiDirectoryNode" />
+              <item name="account" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-lease" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lease-house-center" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-lease" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lease-house-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-lease" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lease-house-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-lease" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lease-house-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-lease" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lease-house-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="house" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-lease" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lease-house-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="house" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-lease" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lease-house-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="house" type="462c0819:PsiDirectoryNode" />
+              <item name="handler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-lease" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lease-house-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="house" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-lease" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lease-house-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-lease" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lease-house-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-lease" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lease-house-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-lease" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lease-house-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lease" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-lease" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lease-house-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lease" type="462c0819:PsiDirectoryNode" />
+              <item name="lease" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-lease" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lease-ws-api" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -366,43 +539,34 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AESUtils">
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-    </configuration>
+  <component name="RunManager" selected="JUnit.HouseDetailTest.testHouseDetail">
     <configuration name="AESUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.design.lease.utils.AESUtils" />
-      <module name="lease-common-code" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.design.lease.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-    </configuration>
-    <configuration name="App (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.design.lease.App" />
-      <module name="lease-ms" />
+      <option name="MAIN_CLASS_NAME" value="com.design.lease.utils.AESUtils" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.design.lease.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="lease-common-code" />
+      <envs />
     </configuration>
     <configuration name="AccountTest.accountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lease-ws-api" />
-      <extension name="coverage">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.design.lease.account.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <module name="lease-ws-api" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.design.lease.account" />
@@ -412,20 +576,22 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
+      <envs />
       <patterns />
     </configuration>
     <configuration name="AccountTest.leaseAccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lease-account-center" />
-      <extension name="coverage">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.design.lease.accoun.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <module name="lease-account-center" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.design.lease.accoun.test" />
@@ -435,20 +601,47 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
+      <envs />
       <patterns />
     </configuration>
-    <configuration name="HouseTest.houseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lease-house-center" />
-      <extension name="coverage">
+    <configuration name="HouseDetailTest.testHouseDetail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.design.lease.lease.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <module name="lease-house-center" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.design.lease.lease" />
+      <option name="MAIN_CLASS_NAME" value="com.design.lease.lease.HouseDetailTest" />
+      <option name="METHOD_NAME" value="testHouseDetail" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="HouseTest.houseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.design.lease.lease.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="lease-house-center" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.design.lease.lease" />
@@ -458,13 +651,38 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
+      <envs />
       <patterns />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
@@ -474,13 +692,30 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
+      <envs />
       <patterns />
     </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
@@ -493,12 +728,15 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
+      <envs />
       <properties />
       <listeners />
     </configuration>
@@ -522,6 +760,7 @@
       <predefined_log_file id="Tomcat Manager" enabled="false" />
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="62675" />
       </RunnerSettings>
@@ -597,6 +836,7 @@
       <predefined_log_file id="Tomcat Manager" enabled="false" />
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="62167" />
       </RunnerSettings>
@@ -671,6 +911,7 @@
       <predefined_log_file id="Tomcat Manager" enabled="false" />
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="62838" />
       </RunnerSettings>
@@ -746,6 +987,7 @@
       <predefined_log_file id="Tomcat Manager" enabled="false" />
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="61466" />
       </RunnerSettings>
@@ -800,37 +1042,24 @@
         </option>
       </method>
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-    </configuration>
-    <list>
-      <item itemvalue="Tomcat Server.lease-ws-api" />
-      <item itemvalue="Tomcat Server.lease-house-center" />
-      <item itemvalue="Tomcat Server.lease-account-center" />
-      <item itemvalue="Tomcat Server.lease-trade-center" />
-      <item itemvalue="Application.App (2)" />
-      <item itemvalue="JUnit.AccountTest.leaseAccountTest" />
-      <item itemvalue="JUnit.HouseTest.houseTest" />
-      <item itemvalue="JUnit.AccountTest.accountTest" />
-      <item itemvalue="Application.AESUtils" />
+    <list size="9">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.lease-ws-api" />
+      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.lease-house-center" />
+      <item index="2" class="java.lang.String" itemvalue="Tomcat Server.lease-account-center" />
+      <item index="3" class="java.lang.String" itemvalue="Tomcat Server.lease-trade-center" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.AccountTest.leaseAccountTest" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.HouseTest.houseTest" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.AccountTest.accountTest" />
+      <item index="7" class="java.lang.String" itemvalue="Application.AESUtils" />
+      <item index="8" class="java.lang.String" itemvalue="JUnit.HouseDetailTest.testHouseDetail" />
     </list>
     <recent_temporary>
-      <list>
-        <item itemvalue="Application.AESUtils" />
-        <item itemvalue="JUnit.AccountTest.accountTest" />
-        <item itemvalue="JUnit.HouseTest.houseTest" />
-        <item itemvalue="JUnit.AccountTest.leaseAccountTest" />
-        <item itemvalue="Application.App (2)" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.HouseDetailTest.testHouseDetail" />
+        <item index="1" class="java.lang.String" itemvalue="Application.AESUtils" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.AccountTest.accountTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.HouseTest.houseTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.AccountTest.leaseAccountTest" />
       </list>
     </recent_temporary>
   </component>
@@ -838,6 +1067,9 @@
     <option name="externalProjectsViewState">
       <projects_view />
     </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -862,13 +1094,12 @@
       <workItem from="1524209700335" duration="30331000" />
       <workItem from="1524274560472" duration="20904000" />
       <workItem from="1524314023448" duration="1338000" />
+      <workItem from="1524319558514" duration="1563000" />
+      <workItem from="1524364544143" duration="25000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AccountTest_accountTest - 2018.04.20 at 19h 49m 42s.xml">
-      <configuration name="AccountTest.accountTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AccountTest_accountTest - 2018.04.20 at 19h 50m 14s.xml">
       <configuration name="AccountTest.accountTest" configurationId="JUnit" />
     </history-entry>
@@ -896,9 +1127,12 @@
     <history-entry file="AccountTest_accountTest - 2018.04.20 at 20h 23m 23s.xml">
       <configuration name="AccountTest.accountTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HouseDetailTest_testHouseDetail - 2018.04.21 at 21h 13m 59s.xml">
+      <configuration name="HouseDetailTest.testHouseDetail" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73091000" />
+    <option name="totallyTimeSpent" value="77700000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -910,41 +1144,40 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5021322" side_tool="true" weight="0.39910814" />
-      <window_info anchor="bottom" id="Application Servers" order="12" weight="0.32998884" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.22919819" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4978678" weight="0.39910814" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32998884" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32998884" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3289256" />
-      <window_info anchor="bottom" id="Spring" order="13" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22844176" />
-      <window_info anchor="right" id="Bean Validation" order="4" />
-      <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32998884" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32998884" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39910814" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22921109" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39910814" sideWeight="0.4978678" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2835821" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -992,202 +1225,20 @@
       </breakpoints-dialog>
       <option name="time" value="41" />
     </breakpoint-manager>
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lease-house-center/src/main/resources/com/design/lease/house/dao/LeaseHouseRelationDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lease-house-center/src/main/resources/com/design/lease/house/dao/LeaseHouseImgDao.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lease-house-center/src/main/java/com/design/lease/house/po/LeaseHouseImgPO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lease-house-center/src/main/java/com/design/lease/house/po/LeaseHouseTempPO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lease-house-center/src/main/java/com/design/lease/house/po/LeaseHouseRelationPO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lease-house-center/src/main/java/com/design/lease/house/dao/LeaseHouseTempDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lease-house-center/src/main/java/com/design/lease/house/rpc/HouseAccountRpcServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lease-house-center/src/main/java/com/design/lease/house/rpc/HouseTradeRpcServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lease-house-center/src/main/java/com/design/lease/house/dao/LeaseHouseRelationDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lease-house-center/src/main/java/com/design/lease/house/dao/LeaseHouseImgDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lease-ws-code/src/main/java/com/design/lease/ws/servlet/WsConfigServletContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lease-ws-code/src/main/java/com/design/lease/manager/WsHandlerMappingManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lease-ws-code/src/main/java/com/design/lease/ws/builder/WsBeanConfigBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="35" column="67" lean-forward="true" selection-start-line="35" selection-start-column="67" selection-end-line="35" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/jre/lib/ext/sunjce_provider.jar!/com/sun/crypto/provider/AESCipher.class" />
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/jre/lib/jce.jar!/javax/crypto/Cipher.class" />
-    <entry file="file://$PROJECT_DIR$/lease-common-code/src/main/java/com/design/lease/utils/AESUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lease-common-code/src/main/java/com/design/lease/utils/JacksonObjectUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-130">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lease-ws-api/src/main/java/com/design/lease/account/bo/AccountDetailBO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-364">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lease-ws-code/src/main/java/com/design/lease/constant/WsConstatnt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lease-ws-code/src/main/java/com/design/lease/aop/HeadAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="910">
-          <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lease-ws-api/src/main/java/com/design/lease/account/controller/AccountController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="30" column="69" lean-forward="true" selection-start-line="30" selection-start-column="69" selection-end-line="30" selection-end-column="69" />
-          <folding>
-            <element signature="e#1090#1091#0" />
-            <element signature="e#1117#1118#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lease-ws-code/src/main/java/com/design/lease/template/ServiceTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lease-house-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="691">
-          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lease-house-api/src/main/java/com/design/lease/account/service/HouseAccountRpcService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lease-ws-api/src/main/java/com/design/lease/house/vo/HouseFilterVo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lease-ws-api/src/main/java/com/design/lease/house/vo/HouseBodyVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding>
-            <element signature="e#814#815#0" />
-            <element signature="e#843#844#0" />
-            <element signature="e#888#889#0" />
-            <element signature="e#924#925#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lease-house-api/src/main/java/com/design/lease/account/dto/HouseDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lease-house-center/src/main/resources/com/design/lease/house/dao/LeaseHouseDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="109" column="31" selection-start-line="109" selection-start-column="31" selection-end-line="109" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lease-house-center/src/main/java/com/design/lease/house/dao/LeaseHouseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="23" column="35" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="35" />
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1201,7 +1252,7 @@
     <entry file="file://$PROJECT_DIR$/lease-house-center/src/main/java/com/design/lease/house/po/LeaseHousePO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1209,24 +1260,21 @@
     <entry file="file://$PROJECT_DIR$/lease-account-api/src/main/java/com/design/lease/house/service/AccountHouseRpcService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lease-house-center/src/main/resources/spring/applictionContext-consumer.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
-          <caret line="10" column="85" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="85" />
+          <caret line="10" column="85" lean-forward="false" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="85" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lease-house-center/src/main/resources/com/design/lease/house/dao/LeaseHouseTempDao.xml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/lease-house-center/src/main/resources/spring/applictionContext-dubbo.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1237,146 +1285,321 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lease-house-center/src/main/java/com/design/lease/house/handler/HouseHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lease-ws-api/src/main/java/com/design/lease/house/service/HouseDetailService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#763#764#0" expanded="true" />
-            <element signature="e#791#792#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
-            <element signature="e#924#925#0" expanded="true" />
-            <element signature="e#1022#1023#0" expanded="true" />
-            <element signature="e#1049#1050#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lease-house-center/src/main/java/com/design/lease/house/rpc/HouseRpcServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lease-house-api/src/main/java/com/design/lease/bo/HouseDetailBO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lease-ws-api/src/main/java/com/design/lease/house/bo/WsHouseDetailBO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lease-ws-api/src/main/java/com/design/lease/house/controller/HouseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lease-house-api/src/main/java/com/design/lease/rpc/HouseRpcService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="10" column="66" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="66" />
+        <state relative-caret-position="0">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lease-house-api/src/main/java/com/design/lease/enums/TypeEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lease-house-api/src/main/java/com/design/lease/enums/HouseStatusEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="24" column="5" selection-start-line="8" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="e#473#474#0" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="24" column="5" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lease-house-api/src/main/java/com/design/lease/enums/DecorateTypeEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-          <folding>
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="156">
+          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lease-house-api/src/main/java/com/design/lease/enums/HouseTypeEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="23" column="5" selection-start-line="7" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="494">
+          <caret line="23" column="5" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lease-house-api/src/main/java/com/design/lease/enums/PayTypeEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="4" column="75" selection-start-line="4" selection-start-column="75" selection-end-line="4" selection-end-column="75" />
-          <folding>
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="104">
+          <caret line="4" column="75" lean-forward="false" selection-start-line="4" selection-start-column="75" selection-end-line="4" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lease-trade-center/src/test/java/com/design/lease/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lease-house-center/src/test/java/com/design/lease/lease/HouseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lease-parent/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="70" column="44" lean-forward="true" selection-start-line="70" selection-start-column="44" selection-end-line="70" selection-end-column="44" />
+        <state relative-caret-position="226">
+          <caret line="202" column="32" lean-forward="false" selection-start-line="202" selection-start-column="32" selection-end-line="202" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lease-ws-code/src/main/java/com/design/lease/template/ServiceTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-281">
+          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lease-house-api/src/main/java/com/design/lease/bo/HouseDetailBO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lease-ws-api/src/main/java/com/design/lease/house/bo/WsHouseRelationDetailBO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lease-house-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="691">
+          <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lease-house-center/src/main/java/com/design/lease/house/po/LeaseHouseRelationPO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="38" column="32" lean-forward="true" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lease-common-code/src/main/java/com/design/lease/rpc/constant/RpcCommonConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lease-common-code/src/main/java/com/design/lease/rpc/dto/RpcResponseDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="50" column="60" lean-forward="false" selection-start-line="50" selection-start-column="60" selection-end-line="50" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lease-house-api/src/main/java/com/design/lease/account/dto/HouseDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lease-house-center/src/main/resources/com/design/lease/house/dao/LeaseHouseRelationDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="72" column="26" lean-forward="false" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lease-house-center/src/main/java/com/design/lease/house/rpc/HouseRpcServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2548">
+          <caret line="111" column="86" lean-forward="false" selection-start-line="111" selection-start-column="86" selection-end-line="111" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lease-ws-api/src/main/java/com/design/lease/house/service/HouseListService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+        <state relative-caret-position="386">
+          <caret line="40" column="13" lean-forward="true" selection-start-line="36" selection-start-column="12" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lease-ws-api/src/main/java/com/design/lease/house/vo/HouseBodyVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lease-ws-code/src/main/java/com/design/lease/ws/bo/Header.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lease-ws-api/src/main/java/com/design/lease/house/service/HouseRelationDetailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="10" lean-forward="false" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lease-ws-api/src/main/java/com/design/lease/house/service/HouseRelationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="28" column="18" lean-forward="false" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lease-ws-api/src/main/java/com/design/lease/trade/controller/TradeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lease-ws-api/src/main/java/com/design/lease/trade/controller/PayController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lease-house-center/src/main/java/com/design/lease/house/po/LeaseHouseImgPO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lease-house-center/src/main/resources/com/design/lease/house/dao/LeaseHouseImgDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lease-house-center/src/main/resources/com/design/lease/house/dao/LeaseHouseDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2912">
+          <caret line="112" column="47" lean-forward="false" selection-start-line="112" selection-start-column="38" selection-end-line="112" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lease-house-api/src/main/java/com/design/lease/bo/HouseRelationDetailBO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lease-house-api/src/main/java/com/design/lease/rpc/HouseRpcService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="15" column="49" lean-forward="false" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lease-ws-api/src/main/java/com/design/lease/house/service/HouseDetailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="35" column="64" lean-forward="false" selection-start-line="35" selection-start-column="64" selection-end-line="35" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lease-ws-api/src/main/java/com/design/lease/house/controller/HouseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="910">
+          <caret line="46" column="5" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lease-trade-center/src/test/java/com/design/lease/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lease-account-center/src/main/java/com/design/lease/account/service/AccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lease-house-center/src/main/java/com/design/lease/house/dao/LeaseHouseImgDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lease-house-center/src/main/java/com/design/lease/house/dao/LeaseHouseTempDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lease-house-center/src/test/java/com/design/lease/lease/HouseDetailTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="16" column="60" lean-forward="false" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lease-house-center/src/main/java/com/design/lease/house/service/HouseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lease-house-center/src/main/java/com/design/lease/house/dao/LeaseHouseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lease-house-center/src/main/java/com/design/lease/house/dao/LeaseHouseRelationDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="21" column="56" lean-forward="false" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lease-house-center/src/main/java/com/design/lease/house/handler/HouseHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>

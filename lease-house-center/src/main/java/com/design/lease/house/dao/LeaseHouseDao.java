@@ -23,5 +23,5 @@ public interface LeaseHouseDao {
 
     List<LeaseHousePO>  queryHouses(@Param("status") Integer status);
 
-    LeaseHousePO queryHouseDetailByNo(@Param("hno") String hno);
+    LeaseHousePO queryHouseDetailByNo(@Param("houseNo") String hno);
 }

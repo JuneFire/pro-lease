@@ -61,4 +61,16 @@
         where id = #{id,jdbcType=BIGINT}
     </delete>
 
+    <select id="queryRelationDetailByHno" resultMap="BaseResultMap">
+        SELECT <include refid="Base_Column_List"/>
+        FROM lease_house_relation
+        WHERE house_no = #{houseNo}
+    </select>
+    
+    <select id="queryRelationList" resultMap="BaseResultMap">
+        SELECT <include refid="Base_Column_List"/>
+        FROM lease_house_relation
+        WHERE uid = #{uid}
+    </select>
+
 </mapper>

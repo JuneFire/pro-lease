@@ -73,6 +73,15 @@ public class RpcResponseDTO<T> implements Serializable{
         return wsResponseMsgVO;
     }
 
+    public RpcResponseDTO<T> buildFailResponse(){
+        RpcResponseDTO<T> wsResponseMsgVO = new RpcResponseDTO<T>();
+        wsResponseMsgVO.setCode(RpcCommonConstant.FAIL_CODE);
+        wsResponseMsgVO.setMissCache(false);
+        wsResponseMsgVO.setSuccess(false);
+        wsResponseMsgVO.setMsg(RpcCommonConstant.FAIL_DESC);
+        return wsResponseMsgVO;
+    }
+
 
     public String getCode() {
         return code;

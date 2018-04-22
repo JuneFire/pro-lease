@@ -110,4 +110,10 @@
         WHERE status = #{status}
     </select>
 
+    <select id="queryHouseDetailByNo" resultMap="BaseResultMap">
+        SELECT <include refid="Base_Column_List"/>
+        FROM lease_house
+        WHERE house_no = #{houseNo}
+    </select>
+
 </mapper>
