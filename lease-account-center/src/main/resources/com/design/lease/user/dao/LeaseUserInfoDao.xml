@@ -65,4 +65,10 @@
         where id = #{id,jdbcType=BIGINT}
     </delete>
 
+    <select id="queryUserDetailByUid" resultMap="BaseResultMap">
+        SELECT <include refid="Base_Column_List" />
+        FROM lease_user_info
+        WHERE uid = #{uid}
+    </select>
+
 </mapper>

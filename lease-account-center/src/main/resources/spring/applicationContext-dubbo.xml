@@ -25,4 +25,9 @@
     <dubbo:service interface="com.design.lease.trade.service.AccountTradeRpcService" ref="accountTradeRpcService"
                    protocol="dubbo"/>
 
+    <bean id="accountRpcService" class="com.design.lease.rpc.AccountRpcServiceImpl"/>
+
+    <dubbo:service interface="com.design.lease.rpc.AccountRpcService" ref="accountRpcService"
+                   protocol="dubbo"/>
+
 </beans>

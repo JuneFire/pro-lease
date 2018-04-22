@@ -11,4 +11,5 @@ public class LeaseAdminServiceImpl implements LeaseAdminService{
     @Autowired
     private LeaseAdminDao leaseAdminDao;
 
+
 }

@@ -94,4 +94,22 @@
         where id = #{id,jdbcType=BIGINT}
     </delete>
 
+    <select id="queryOrderList" resultMap="BaseResultMap">
+        SELECT <include refid="Base_Column_List"/>
+        FROM lease_landlord_detail
+        WHERE uid = #{uid}
+    </select>
+
+    <select id="queryOrderDetailByOrderNo" resultMap="BaseResultMap">
+        SELECT <include refid="Base_Column_List"/>
+        FROM lease_landlord_detail
+        WHERE landlord_order_id = #{orderId}
+    </select>
+
+    <select id="queryOrderByStatus" resultMap="BaseResultMap">
+        SELECT <include refid="Base_Column_List"/>
+        FROM lease_landlord_detail
+        WHERE uid = #{uid} AND status = ${status}
+    </select>
+
 </mapper>

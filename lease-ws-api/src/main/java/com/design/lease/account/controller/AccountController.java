@@ -1,7 +1,8 @@
 package com.design.lease.account.controller;
 
 import com.design.lease.account.bo.AccountDetailBO;
-import com.design.lease.account.service.AccountService;
+import com.design.lease.account.service.AccountDetailService;
+import com.design.lease.account.service.AccountLoginService;
 import com.design.lease.account.vo.AccountBodyVo;
 import com.design.lease.ws.bo.Header;
 import com.design.lease.ws.dto.WsResponseMsgVO;
@@ -18,18 +19,21 @@ import org.springframework.stereotype.Component;
 public class AccountController {
 
     @Autowired
-    private AccountService accountService;
+    private AccountLoginService loginService;
+
+    @Autowired
+    private AccountDetailService detailService;
 
     @Route("/login")
     public WsResponseMsgVO<AccountDetailBO> login(Header head, AccountBodyVo body){
-        WsResponseMsgVO<AccountDetailBO> wsResponseMsgVO = accountService.templateService(head,body);
+        WsResponseMsgVO<AccountDetailBO> wsResponseMsgVO = loginService.templateService(head,body);
         return wsResponseMsgVO;
     }
 
-    @Route("/account")
+    @Route("/queryUser")
     @NeedValidation(login = true)
     public WsResponseMsgVO account(Header header, AccountBodyVo body){
-        return null;
+        return detailService.templateService(header,body);
     }
 
 

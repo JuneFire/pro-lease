@@ -1,17 +1,13 @@
-/**
- * TODO: complete the comment
- */
-package com.design.lease.collection.po;
+package com.design.lease.bo;
 
 import lombok.Data;
 
+import java.io.Serializable;
 import java.util.Date;
 
-/**
- * TODO: complete the comment
- */
 @Data
-public class LeaseHouseCollectionPO {
+public class HouseCollectionDetailBO implements Serializable{
+    private static final long serialVersionUID = 162578507702777103L;
 
     /**
      * 主键ID
@@ -39,11 +35,6 @@ public class LeaseHouseCollectionPO {
     private String orderId;
 
     /**
-     * 用户ID
-     */
-    private Long uid;
-
-    /**
      * 创建时间
      */
     private Date createTime;
@@ -52,5 +43,4 @@ public class LeaseHouseCollectionPO {
      * 更新时间
      */
     private Date updateTime;
-
 }

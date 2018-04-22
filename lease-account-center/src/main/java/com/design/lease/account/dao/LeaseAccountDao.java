@@ -4,6 +4,7 @@
 package com.design.lease.account.dao;
 
 import com.design.lease.account.po.LeaseAccountPO;
+import org.apache.ibatis.annotations.Param;
 
 public interface LeaseAccountDao {
     int deleteByPrimaryKey(Long id);
@@ -17,4 +18,6 @@ public interface LeaseAccountDao {
     int updateByPrimaryKeySelective(LeaseAccountPO record);
 
     int updateByPrimaryKey(LeaseAccountPO record);
+
+    LeaseAccountPO checkAccount(@Param("accountName") String accountName,@Param("password") String password);
 }

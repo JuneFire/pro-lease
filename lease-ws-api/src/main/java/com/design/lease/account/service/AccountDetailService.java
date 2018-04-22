@@ -3,6 +3,9 @@ package com.design.lease.account.service;
 import com.design.lease.account.bo.AccountDetailBO;
 import com.design.lease.account.vo.AccountBodyVo;
 import com.design.lease.bo.UserDetailBO;
+import com.design.lease.dto.AccountDto;
+import com.design.lease.dto.UserInfoDTO;
+import com.design.lease.rpc.AccountRpcService;
 import com.design.lease.template.ServiceTemplate;
 import com.design.lease.ws.bo.Header;
 import com.design.lease.ws.dto.WsResponseMsgVO;
@@ -13,22 +16,22 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-@Component("accountService")
-public class AccountService extends ServiceTemplate<AccountBodyVo,UserDetailBO,AccountDetailBO>{
+@Component
+public class AccountDetailService extends ServiceTemplate<AccountBodyVo,UserDetailBO,AccountDetailBO>{
 
     @Autowired
-    private AccountHouseRpcService accountHouseRpcService;
+    private AccountRpcService accountRpcService;
 
     @Override
     public boolean checkParam(AccountBodyVo accountBodyVo) {
-        return accountBodyVo.getUid() == null;
+        return accountBodyVo.getAccountName() == null || accountBodyVo.getPassword() == null;
     }
 
     @Override
     public RpcResponseDTO<UserDetailBO> service(Header header,AccountBodyVo accountBodyVo) {
-        AccountHouseDTO accountHouseDTO = new AccountHouseDTO();
-        accountHouseDTO.setUid(accountBodyVo.getUid());
-        return accountHouseRpcService.queryUserDetailByUid(accountHouseDTO);
+        UserInfoDTO userInfo = new UserInfoDTO();
+        userInfo.setUid(header.getUid());
+        return accountRpcService.queryUserDetailByUid(userInfo);
     }
 
     @Override

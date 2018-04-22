@@ -57,4 +57,10 @@
         where id = #{id,jdbcType=BIGINT}
     </delete>
 
+    <select id="checkAccount" resultMap="BaseResultMap">
+        SELECT <include refid="Base_Column_List" />
+        FROM lease_account
+        where account = #{accountName} and password = #{password}
+    </select>
+
 </mapper>

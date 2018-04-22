@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.design.lease.collection.dao.LeaseHouseCollectionDao" >
-    <resultMap id="BaseResultMap" type="com.design.lease.trade.po.LeaseHouseCollectionPO" >
+    <resultMap id="BaseResultMap" type="com.design.lease.collection.po.LeaseHouseCollectionPO" >
         <id column="id" property="id" jdbcType="BIGINT" />
         <result column="house_no" property="houseNo" jdbcType="VARCHAR" />
         <result column="house_name" property="houseName" jdbcType="VARCHAR" />
         <result column="status" property="status" jdbcType="TINYINT" />
         <result column="order_id" property="orderId" jdbcType="VARCHAR" />
+        <result column="uid" property="uid" jdbcType="VARCHAR"/>
         <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
         <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
     </resultMap>
 
     <sql id="Base_Column_List" >
-        id, house_no, house_name, status, order_id, create_time, update_time
+        id, house_no, house_name, status, order_id, uid, create_time, update_time
     </sql>
 
     <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
@@ -23,12 +24,12 @@
     </select>
 
     <insert id="insert" parameterType="com.design.lease.trade.po.LeaseHouseCollectionPO" >
-        insert into lease_house_collection (id, house_no, house_name, 
-            status, order_id, create_time, 
+        insert into lease_house_collection (house_no, house_name,
+            status, order_id, uid,create_time,
             update_time)
-        values (#{id,jdbcType=BIGINT}, #{houseNo,jdbcType=VARCHAR}, #{houseName,jdbcType=VARCHAR}, 
-            #{status,jdbcType=TINYINT}, #{orderId,jdbcType=VARCHAR}, #{createTime,jdbcType=TIMESTAMP}, 
-            #{updateTime,jdbcType=TIMESTAMP})
+        values ( #{houseNo,jdbcType=VARCHAR}, #{houseName,jdbcType=VARCHAR},
+            #{status,jdbcType=TINYINT}, #{orderId,jdbcType=VARCHAR},
+            #{uid,jdbcType=VARCHAR},now(), now())
     </insert>
 
     <update id="updateByPrimaryKeySelective" parameterType="com.design.lease.trade.po.LeaseHouseCollectionPO" >
@@ -61,4 +62,21 @@
         where id = #{id,jdbcType=BIGINT}
     </delete>
 
+    <select id="queryCollectionList" resultMap="BaseResultMap">
+        SELECT <include refid="Base_Column_List"/>
+        FROM lease_house_collection
+        WHERE uid = #{uid} and status = 0
+    </select>
+
+    <select id="queryCollectionDetailByOrderId" resultMap="BaseResultMap">
+        SELECT <include refid="Base_Column_List"/>
+        FROM lease_house_collection
+        WHERE order_id = #{orderId}
+    </select>
+
+    <select id="queryCollectionDetailByHouseNo" resultMap="BaseResultMap">
+        SELECT <include refid="Base_Column_List"/>
+        FROM lease_house_collection
+        WHERE house_no = #{houseNo} AND uid = #{uid} AND  status = #{status}
+    </select>
 </mapper>

@@ -26,7 +26,11 @@
     </properties>
 
     <dependencies>
-
+        <dependency>
+            <groupId>com.design.lease</groupId>
+            <artifactId>lease-common-code</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
 
